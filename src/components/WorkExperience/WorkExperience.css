@@ -1,0 +1,38 @@
+.tech-skills p{
+    background-color: black;
+    border-radius: 90px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.tech-skills p:hover{
+    background-color: gold;
+    cursor: pointer;
+    color: black;
+}
+
+.date-class{
+    color: black;
+}
+
+.timeline-section{
+    margin-top: 20px;
+}
+
+#dark .date-class{
+    color: white;
+}
+
+.timeline-section{
+    margin-left: 70px;
+}
+
+
+@media  (max-width:1000px){
+    .timeline-section{
+        margin-left: 0px;
+    }
+}
+  
+    
